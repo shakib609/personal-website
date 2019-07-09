@@ -15,7 +15,7 @@ module.exports = {
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: 'images/logo.png', // Used for SEO and manifest, path to your image you placed in the 'static' folder
   siteDescription:
-    'Check out how Shakib Hossain teaches you interesting things about about Python, Django, JavaScript, React, Flutter.',
+    'Check out how Shakib Hossain learns and writes about Python, Django, JavaScript, React, Flutter.',
   author: 'Shakib Hossain', // Author for schemaORGJSONLD
   organization: '',
 
