@@ -2,6 +2,8 @@ import React from 'react'
 import { Link, StaticQuery, graphql } from 'gatsby'
 import { css } from '@emotion/core'
 import { useTheme } from './Theming'
+import MobileNav from './MobileNav'
+import { bpMaxXS } from '../lib/breakpoints'
 // import ThemeToggler from './ThemeToggler'
 
 import Container from './Container'
@@ -65,27 +67,36 @@ const Header = ({ siteTitle }) => {
               }
             `}
           >
-            <Link
-              to="/blog"
-              activeClassName="active"
-              aria-label="View blog page"
+            <MobileNav />
+            <nav
+              css={css`
+                ${bpMaxXS} {
+                  display: none;
+                }
+              `}
             >
-              Blog
-            </Link>
-            <Link
-              to="/projects"
-              activeClassName="active"
-              aria-label="View projects page"
-            >
-              Projects
-            </Link>
-            <Link
-              to="/about"
-              activeClassName="active"
-              aria-label="View about page"
-            >
-              About
-            </Link>
+              <Link
+                to="/blog"
+                activeClassName="active"
+                aria-label="View blog page"
+              >
+                Blog
+              </Link>
+              <Link
+                to="/projects"
+                activeClassName="active"
+                aria-label="View projects page"
+              >
+                Projects
+              </Link>
+              <Link
+                to="/about"
+                activeClassName="active"
+                aria-label="View about page"
+              >
+                About
+              </Link>
+            </nav>
             {/* <ThemeToggler
               css={{}}
               toggleTheme={theme.toggleTheme}
