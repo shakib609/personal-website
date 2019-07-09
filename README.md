@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4f5c7923-879f-4733-9420-b2ef096b1b0f/deploy-status)](https://app.netlify.com/sites/shakib609-blog/deploys)
+
 # egghead.io creator MDX Blog Starter Project
 
 This is based on Robin Wieruch's https://github.com/rwieruch/gatsby-mdx-blog-starter-project
