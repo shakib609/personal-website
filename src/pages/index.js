@@ -36,7 +36,7 @@ const Hero = () => {
             max-width: ${rhythm(15)};
           `}
         >
-          Hi, I'm Shakib Hossain. I am always learning new technologies.
+          Hi, I'm Shakib Hossain. I love learning and writing about tech.
         </h1>
       </Container>
       <div
