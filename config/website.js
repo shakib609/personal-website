@@ -1,13 +1,21 @@
+const skills = ['Python', 'Django', 'JavaScript', 'React', 'Flutter']
+
+const keywords = [
+  ...skills.map(skill => `${skill} Developer`),
+  ...skills.map(skill => `${skill} Programmer`),
+  ...skills.map(skill => `${skill} Articles`),
+]
+
 module.exports = {
   pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/blog your pathPrefix should be "blog"
-  siteTitle: 'shakib609 Blog', // Navigation and Site Title
-  siteTitleAlt: 'Personal blog of Shakib Hossain', // Alternative Site title for SEO
-  siteTitleShort: 'shakib609 blog', // short_name for manifest
-  siteUrl: 'https://blog.shakib609.gq', // Domain of your site. No trailing slash!
+  siteTitle: 'Shakib Hossain', // Navigation and Site Title
+  siteTitleAlt: 'Personal website of Shakib Hossain', // Alternative Site title for SEO
+  siteTitleShort: 'shakibhossain', // short_name for manifest
+  siteUrl: 'https://www.shakib609.gq', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: 'images/logo.png', // Used for SEO and manifest, path to your image you placed in the 'static' folder
   siteDescription:
-    'Personal blog of Shakib Hossain. I write here about my journey of Python, Django, JavaScript, React, Flutter etc.',
+    'Check out how Shakib Hossain teaches you interesting things about about Python, Django, JavaScript, React, Flutter.',
   author: 'Shakib Hossain', // Author for schemaORGJSONLD
   organization: '',
 
@@ -16,6 +24,9 @@ module.exports = {
   ogSiteName: "Shakib Hossain's Personal Blog", // Facebook Site Name
   ogLanguage: 'en_US',
   googleAnalyticsID: 'UA-78902575-1',
+
+  // Keywords for SEO
+  keywords,
 
   // Manifest and Progress color
   themeColor: '#5348FF',

@@ -36,7 +36,7 @@ const Hero = () => {
             max-width: ${rhythm(15)};
           `}
         >
-          Your blog says the things you want to say.
+          Hi, I'm Shakib Hossain. I am always learning new technologies.
         </h1>
       </Container>
       <div
