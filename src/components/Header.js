@@ -51,18 +51,18 @@ const Header = ({ siteTitle }) => {
               a {
                 text-decoration: none;
                 color: white;
-                padding: 5px 10px;
+                padding: 8px 10px;
                 margin-right: 10px;
                 &:last-child {
                   margin-right: 0;
                 }
                 &:hover {
-                  background: #4238e1;
+                  background: rgba(40, 28, 77, 0.7);
                   border-radius: 5px;
                 }
               }
               .active {
-                background: #4238e1;
+                background: rgba(40, 28, 77, 0.7);
                 border-radius: 5px;
               }
             `}

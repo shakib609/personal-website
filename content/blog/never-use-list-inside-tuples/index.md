@@ -4,7 +4,8 @@ date: 2017-07-15
 title: 'Never Use Lists Inside Tuples'
 description: 'Here I discuss why we should not include lists inside a tuple'
 published: true
-banner: './banner.png'
+banner: './banner.jpg'
+bannerCredit: 'Photo by [Kaboompics .com](https://www.pexels.com/@kaboompics) from [Pexels](https://www.pexels.com/photo/colorful-fabrics-5872/)'
 ---
 
 <p class="lead">

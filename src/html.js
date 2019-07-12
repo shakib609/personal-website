@@ -13,6 +13,10 @@ export default class HTML extends React.Component {
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
           {this.props.headComponents}
+          <link
+            href="https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding|Roboto:400,700&display=swap"
+            rel="stylesheet"
+          ></link>
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
