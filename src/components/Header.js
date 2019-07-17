@@ -82,13 +82,13 @@ const Header = ({ siteTitle }) => {
               >
                 Blog
               </Link>
-              <Link
+              {/* <Link
                 to="/projects"
                 activeClassName="active"
                 aria-label="View projects page"
               >
                 Projects
-              </Link>
+              </Link> */}
               <Link
                 to="/about"
                 activeClassName="active"
