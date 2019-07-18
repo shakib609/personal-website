@@ -59,6 +59,8 @@ const Header = ({ siteTitle }) => {
                 &:hover {
                   background: rgba(40, 28, 77, 0.7);
                   border-radius: 5px;
+                  text-decoration: none;
+                  color: white;
                 }
               }
               .active {
