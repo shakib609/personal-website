@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import { css } from '@emotion/core'
 import Container from 'components/Container'
+import { useTheme } from 'components/Theming'
 import SEO from '../components/SEO'
 import Layout from '../components/Layout'
 import Link from '../components/Link'
@@ -12,6 +13,7 @@ const Blog = ({
   data: { site, allMdx },
   pageContext: { pagination, categories },
 }) => {
+  const theme = useTheme()
   const { page, nextPagePath, previousPagePath } = pagination
 
   const posts = page
@@ -80,6 +82,13 @@ const Blog = ({
               `}
             >
               <Link
+                css={{
+                  transition: 'all 150ms ease',
+                  '&:hover': {
+                    color: theme.colors.primary,
+                    textDecoration: 'none',
+                  },
+                }}
                 aria-label={`View ${post.frontmatter.title} article`}
                 to={`/${post.fields.slug}`}
               >

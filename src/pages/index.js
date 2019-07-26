@@ -71,16 +71,15 @@ export default function Index({ data: { site, allMdx } }) {
               margin-bottom: 40px;
             `}
           >
-            <h2
-              css={css({
-                marginBottom: rhythm(0.3),
-                transition: 'all 150ms ease',
-                ':hover': {
-                  color: theme.colors.primary,
-                },
-              })}
-            >
+            <h2 css={{ marginBottom: rhythm(0.3) }}>
               <Link
+                css={{
+                  transition: 'all 150ms ease',
+                  '&:hover': {
+                    color: theme.colors.primary,
+                    textDecoration: 'none',
+                  },
+                }}
                 to={post.frontmatter.slug}
                 aria-label={`View ${post.frontmatter.title}`}
               >
