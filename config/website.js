@@ -8,9 +8,9 @@ const keywords = [
 
 module.exports = {
   pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/blog your pathPrefix should be "blog"
-  siteTitle: 'Shakib Hossain', // Navigation and Site Title
+  siteTitle: 'Shakib Hossain | shakib609', // Navigation and Site Title
   siteTitleAlt: 'Personal website of Shakib Hossain', // Alternative Site title for SEO
-  siteTitleShort: 'shakibhossain', // short_name for manifest
+  siteTitleShort: 'shakibhossain-shakib609', // short_name for manifest
   siteUrl: 'https://www.shakib609.gq', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: 'images/logo.png', // Used for SEO and manifest, path to your image you placed in the 'static' folder

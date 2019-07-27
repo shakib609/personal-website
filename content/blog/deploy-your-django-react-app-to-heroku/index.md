@@ -320,4 +320,4 @@ We are ready to push the first version of our app. Create a git repository and m
 $ git push heroku master
 ```
 
-This will trigger a deploy and show you your deploy progress. After a successful deploy it will show you the URL of your app. In my case, the URL is [https://drt-boilerplate.herokuapp.com/](https://drt-boilerplate.herokuapp.com/). Now, pat yourself on the back for accomplishing this. :D
+This will trigger a deploy and show you your deploy progress. After a successful deploy it will show you the URL of your app. In my case, the URL is [https://drt-boilerplate.herokuapp.com/](https://drt-boilerplate.herokuapp.com/). Now, pat yourself on the back for accomplishing this. 😀
