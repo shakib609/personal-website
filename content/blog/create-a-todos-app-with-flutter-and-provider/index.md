@@ -449,7 +449,34 @@ import 'package:todos/screens/add_task_screen.dart';
 ...
 ```
 
-This will take the user to the `AddTaskScreen` whenever the **+** button is pressed on the `Appbar`. Now, our app is fully ready to create, read, update and delete tasks.
+This will take the user to the `AddTaskScreen` whenever the **+** button is pressed on the `Appbar`. Now, all we need to do is wrap our main app in `lib/main.dart` inside a `ChangeNotifierProvider` widget which will pass our `TodosModel` instance to all the widgets inside our app. Update your `lib/main.dart` file like below:
+
+```dart
+import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+
+import 'package:todos/screens/home_screen.dart';
+import 'package:todos/providers/todos_model.dart';
+
+void main() => runApp(TodosApp());
+
+class TodosApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return ChangeNotifierProvider(
+      builder: (context) => TodosModel(),
+      child: MaterialApp(
+        title: 'Todos',
+        theme: ThemeData.dark(),
+        home: HomeScreen(),
+      ),
+    );
+  }
+}
+
+```
+
+Now, our app is ready. Congratulations on creating your first Todo app using Flutter using Provider.
 
 Thanks for reading the post. I am providing some more resources from where you can learn more about the usage of `provider` package with `flutter`.
 
