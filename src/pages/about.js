@@ -34,7 +34,7 @@ export default ({ data: { site } }) => (
         some Backend Programming after a while. First, I tried Ruby on Rails for
         a while then after some time I tried Django and instantly I knew what my
         favorite framework is going to be. Since then, I have been working with
-        Django, Python etc. Also, my previous Front-End knowledge help me to
+        Django, Python etc. Also, my previous Front-End knowledge helped me to
         work with frameworks like React.js, Vue.js etc.
       </p>
       <h3 style={{ color: '#3e3e3e', marginBottom: '2rem' }}>
