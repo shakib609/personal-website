@@ -10,7 +10,7 @@ keywords:
   - 'flutter'
   - 'provider'
   - 'state-management'
-banner: './banner.png'
+banner: './banner.jpg'
 ---
 
 Todo apps have always been a good first app for starters to learn something new. I also created this app solely for learning purposes. I have used `provider` package which is now the [recommended way](https://www.youtube.com/watch?v=d_m5csmrf7I) of managing your state inside [Flutter](https://flutter.dev) apps. So, I will be showing you how you can create a Todo app yourself with flutter using `provider` as the state management system.
@@ -133,7 +133,7 @@ Again Home Screen will have a TabView containing these tabs
 
 Let's look at the widget tree of the `HomeScreen` widget we have to create to make our app.
 
-![Widget Tree of HomeScreen](./widget-tree.png)
+![Widget Tree of HomeScreen](./widget-tree.jpg)
 
 All three tabs will show similar widgets. Only filtering according to the selected tab.
 

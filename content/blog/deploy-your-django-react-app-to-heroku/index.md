@@ -281,7 +281,7 @@ $ python manage.py runserver
 
 Open your preffered browser and navigate to `localhost:8000`. You should see the default React app.
 
-![Django + React app preview](./AppScreenshot.png).
+![Django + React app preview](./AppScreenshot.jpg).
 
 # Preparing for Heroku Deployment
 

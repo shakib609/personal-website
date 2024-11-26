@@ -4,7 +4,7 @@ date: 2017-07-09
 title: 'Python Tuple Unpacking in ES6'
 description: 'In this post I describe the process of unpacking iterables in ES6'
 published: true
-banner: ''
+banner: './banner.jpg'
 ---
 
 <p class="lead">Python developers often get to use a really cool feature called tuple unpacking. They(We) can return more than one values, assign to two variables simultaneously etc.</p>
