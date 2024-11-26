@@ -177,7 +177,7 @@ $ sudo docker-compose up
 
 Now, if we visit `localhost:8000` we should see django's default start page.
 
-![Django default homepage](./django-homepage.png 'Django default homepage')
+![Django default homepage](./django-homepage.jpeg 'Django default homepage')
 
 After following the above step our project directory should look something like [this](https://github.com/shakib609/blog_api/tree/30985db648f64dd03bb95b9d02c42091d3d58953). We're ready now to start building our API.
 
