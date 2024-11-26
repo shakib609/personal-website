@@ -13,7 +13,7 @@ export default ({ data: { site } }) => (
         </span>
       </h1>
       <p>
-        Hi, I am a Professional Software Engineer. I am currently pursuing my
+        Hi, I am a Professional Software Engineer located in Berlin. I am currently pursuing my
         B.Sc. in Computer Science and Engineering. I love learning and working
         with new technologies. I have been coding in Python and JavaScript for
         more than three years now. Recently, I have also started learning
@@ -44,20 +44,25 @@ export default ({ data: { site } }) => (
         </span>
       </h3>
       <p>
-        <b style={{ color: '#3e3e3e' }}>Languages:</b> HTML, CSS, JavaScript,
-        Python, C, C++
+        <b style={{ color: '#3e3e3e' }}>Languages:</b> Python, TypeScript, JavaScript
       </p>
       <p>
-        <b style={{ color: '#3e3e3e' }}>Front-End Frameworks:</b> React.js,
-        Vue.js
+        <b style={{ color: '#3e3e3e' }}>Front-End Frameworks:</b> React.js, Vue.js, Next.js, Redux
       </p>
       <p>
-        <b style={{ color: '#3e3e3e' }}>Back-End Frameworks:</b> Django, Flask,
-        Node.js, Express.js
+        <b style={{ color: '#3e3e3e' }}>Back-End Frameworks:</b> Django, FastAPI, Express.js, Socket.io
       </p>
       <p>
-        <b style={{ color: '#3e3e3e' }}>Databases:</b> MySQL, Postgresql,
-        Sqlite3
+        <b style={{ color: '#3e3e3e' }}>Databases:</b> SQL, MySQL, Postgresql, Redis, MongoDB
+      </p>
+      <p>
+        <b style={{ color: '#3e3e3e' }}>Tools:</b> Git, Docker, Kubernetes, Celery, RabbitMQ
+      </p>
+      <p>
+        <b style={{ color: '#3e3e3e' }}>CI/CD:</b> Gitlab, Jenkins, Bitbucket Pipelines
+      </p>
+      <p>
+        <b style={{ color: '#3e3e3e' }}>Cloud:</b> AWS, GCP
       </p>
     </Container>
   </Layout>
