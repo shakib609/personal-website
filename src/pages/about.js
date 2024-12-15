@@ -44,7 +44,7 @@ export default ({ data: { site } }) => (
         </span>
       </h3>
       <p>
-          <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="0ec1e5f4-8409-4ff7-9928-43551ed74727" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+          AWS Certified Solutions Architect – Associate - <a href="https://www.credly.com/badges/0ec1e5f4-8409-4ff7-9928-43551ed74727/public_url">Credly</a>
       </p>
       <h3 style={{ color: '#3e3e3e', marginBottom: '2rem' }}>
         My Skills{' '}
