@@ -38,6 +38,15 @@ export default ({ data: { site } }) => (
         work with frameworks like React.js, Vue.js etc.
       </p>
       <h3 style={{ color: '#3e3e3e', marginBottom: '2rem' }}>
+        My Certifications{' '}
+        <span role="img" aria-label="biceps emoji">
+          🎓
+        </span>
+      </h3>
+      <p>
+          <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="0ec1e5f4-8409-4ff7-9928-43551ed74727" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+      </p>
+      <h3 style={{ color: '#3e3e3e', marginBottom: '2rem' }}>
         My Skills{' '}
         <span role="img" aria-label="biceps emoji">
           💪
