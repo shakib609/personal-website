@@ -15,9 +15,8 @@ export default ({ data: { site } }) => (
       <p>
         Hi, I am a Professional Software Engineer located in Berlin. I am currently pursuing my
         B.Sc. in Computer Science and Engineering. I love learning and working
-        with new technologies. I have been coding in Python and JavaScript for
-        more than three years now. Recently, I have also started learning
-        Flutter.
+        with new technologies. I have been working with Software Engineering and DevOps for
+        more than five years now.
       </p>
       <h3 style={{ color: '#3e3e3e' }}>Little Back Story</h3>
       <p>
@@ -33,9 +32,8 @@ export default ({ data: { site } }) => (
         Backend Development was always appealing to me. So, I started learning
         some Backend Programming after a while. First, I tried Ruby on Rails for
         a while then after some time I tried Django and instantly I knew what my
-        favorite framework is going to be. Since then, I have been working with
-        Django, Python etc. Also, my previous Front-End knowledge helped me to
-        work with frameworks like React.js, Vue.js etc.
+        favorite framework is going to be. After sometime, I transitioned to DevOps role
+        and working on this role ever since.
       </p>
       <h3 style={{ color: '#3e3e3e', marginBottom: '2rem' }}>
         My Certifications{' '}
@@ -45,6 +43,9 @@ export default ({ data: { site } }) => (
       </h3>
       <p>
           AWS Certified Solutions Architect – Associate - <a href="https://www.credly.com/badges/0ec1e5f4-8409-4ff7-9928-43551ed74727/public_url">Credly</a>
+      </p>
+      <p>
+          HashiCorp Certified: Terraform Associate (003) - <a href="https://www.credly.com/badges/3318f39c-8413-4944-8e3a-5d189276d220/public_url">Credly</a>
       </p>
       <h3 style={{ color: '#3e3e3e', marginBottom: '2rem' }}>
         My Skills{' '}
